@@ -41,7 +41,7 @@
     'standard' | 'none'
   ) | null | undefined
 
-  type DraggableOptions = {
+  export type DraggableOptions = {
     Extras?:any,
     relativeTo?:PositionReference, onlyFrom?:string, neverFrom?:string,
     Dummy?:DragDummy, DummyOffsetX?:number, DummyOffsetY?:number,
